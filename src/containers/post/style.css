@@ -1,0 +1,42 @@
+.post {
+  background-color:white;
+  max-width: 650px;
+  width: 86vw;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__headerLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__headerLeft p {
+  margin-left: 6px;
+}
+.post__userAvatar {
+  border-radius: 50%;
+  height: 40px;
+}
+.post__deleteBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.post__deleteBtn:focus{
+  outline: none;
+}
+.post__photoUrl {
+  width:100%;
+  object-fit: cover;
+  margin: 16px 0;
+}
+.post__userInCap span {
+  font-weight: 500;
+  margin-right: 10px;
+}

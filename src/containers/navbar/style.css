@@ -1,0 +1,17 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: white;
+  align-items: center;
+}
+.navbar-userAvatar {
+  border-radius: 50%;
+  height: 40px;
+}
+.navbar-userInfo {
+  display: flex;
+}
+.navbar-userInfo p {
+  margin: auto 10px; 
+}
